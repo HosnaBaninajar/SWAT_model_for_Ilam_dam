@@ -1,0 +1,58 @@
+v. 0.18.03
+
+	- Fixed a big that prevented the automatic update of database location.
+
+
+
+v. 0.17.12
+
+	- Workaround to calculate the WGEN Statistics even when no data is available for a weather variable (a warning message is displayed in these cases).
+
+
+
+v. 0.16.07
+
+	- Workaround for the bug 3066 which occurs when qryWGEN would become NULL.
+
+	- Updated the SWAT Weather Database Documentation Guide.
+
+	- Fixed a bug when saving weather database tables would limit the maximum output records to 65,000 even for the .xlsx format
+.
+
+
+v. 0.16.06.a
+
+	- Improved the efficiency when opening the database.
+
+	- When closing the database, the program will now remove unused temporary tables.
+
+	- Fixed a bug that prevented the generation of the WGEN Statistics file.
+
+
+
+v. 0.16.06
+
+	- Fixed a bug where the link location of the database would not update automatically.
+
+
+
+
+v. 0.16.02
+
+	- Returned the example dataset to the previous version, to maintain compatibility with SWAT (i.e. missing values are again considered as -99).
+
+	- Updated the calculation of WGEN statistics to ignore the missing -99 values.
+
+	- Small fix to reduce the load time of the database.
+
+
+v. 0.16.01
+
+	- Improved the calculation of WGEN statistics, to make it more efficient.
+
+	- Reviwed the example dataset (Previously, missing values were considered as -99. Now, the are actually not accounted for).
+
+
+v. 0.15.11
+
+	- Alpha release version.
